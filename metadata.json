@@ -1,0 +1,6 @@
+{
+  "name": "Amazon Business Review Engine",
+  "description": "Amazon Business Review SaaS Web Application. Integrate Seller Central, Sellerboard, and Search Query Performance reports with dynamic multi-dimensional diagnostic dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
