@@ -277,7 +277,7 @@ export default function App() {
         {/* Left Side: Brand Logo */}
         <div className="flex items-center gap-2">
           <span className="font-serif-display text-xl font-bold tracking-tight text-[var(--color-primary)]">
-            AMZ Review Data Engine
+            Amazon Business Review Engine
           </span>
           <span className="text-[10px] bg-[var(--color-primary)] text-white px-1.5 py-0.5 rounded font-mono font-medium tracking-wide uppercase leading-none mt-1">
             SaaS Pro
