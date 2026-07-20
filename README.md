@@ -27,26 +27,16 @@ The objective is simple:
 
  **🌐 Open in Browser**  👉 [*HTML Demo*](https://hyvoid.github.io/Amazon-Business-Review-Engine/)
 
- **📥 Download Excel**  
- *(GitHub Release / Gumroad — Coming Soon)*
-
+ **📥 Download Excel**   👉 [*Download Link*](https://alexhasgreatestuff.gumroad.com/l/vfywnz)
+ 
  Available in both **Browser** and **Excel** versions. Simply open, import exported reports, refresh, and start analyzing.
 
 ---
 
 # Screenshots
 
-### Browser Version
+ <img width="1693" height="929" alt="ChatGPT Image Jul 20, 2026, 05_05_45 PM" src="https://github.com/user-attachments/assets/e137c774-4c8d-421d-88cf-3fd7fefef0b9" />
 
-<!-- screenshot: browser version -->
-
-*Interactive executive dashboard showing business KPIs, trend analysis, SKU diagnostics, and keyword performance directly in the browser.*
-
----
-
-### Excel Version
-
-<!-- screenshot: excel version -->
 
 *Excel workbook containing standardized data import sheets, automated analytical engines, and executive reporting dashboards designed for recurring Amazon Business Reviews.*
 
