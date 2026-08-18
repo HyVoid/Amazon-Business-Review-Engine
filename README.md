@@ -33,15 +33,6 @@ The objective is simple:
 
 ---
 
-# Screenshots
-
- <img width="1693" height="929" alt="ChatGPT Image Jul 20, 2026, 05_05_45 PM" src="https://github.com/user-attachments/assets/e137c774-4c8d-421d-88cf-3fd7fefef0b9" />
-
-
-*Excel workbook containing standardized data import sheets, automated analytical engines, and executive reporting dashboards designed for recurring Amazon Business Reviews.*
-
----
-
 # What It Helps You Track
 
 - Weekly, monthly, and yearly business performance without rebuilding reports every reporting cycle.
