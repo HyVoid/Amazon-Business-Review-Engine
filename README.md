@@ -29,7 +29,7 @@ Try the browser version for free. If you need the Excel version, you can buy it 
 
  **🌐 Open in Browser**  👉 [*HTML Demo*](https://hyvoid.github.io/Amazon-Business-Review-Engine/)
 
- **📥 Download Excel**   👉 [*Download Link*](https://alexhasgreatestuff.gumroad.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
+ **📥 Download Excel**   👉 [*Download Link*](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
  
  Available in both **Browser** and **Excel** versions. Simply open, import exported reports, refresh, and start analyzing.
 
