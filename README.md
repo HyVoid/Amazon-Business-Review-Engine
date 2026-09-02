@@ -621,7 +621,7 @@ The reporting process takes only a few minutes and produces a repeatable executi
 - **Product Profitability Analyzer** — Compare contribution margin across products and marketplaces.
 - **Executive KPI Tracker** — Lightweight operational scorecard for recurring management reviews.
 
-More decision-support tools will be published through the GitHub repository and Gumroad store.
+More decision-support tools will be published through the GitHub repository and our [Website](https://www.theseusworkshop.com/).
 
 ---
 
