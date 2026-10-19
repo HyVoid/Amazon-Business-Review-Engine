@@ -1,3 +1,4 @@
+[ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 # Amazon Business Review Engine
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
@@ -35,7 +36,7 @@ Try the browser version for free. If you need the Excel version, you can buy it 
 
 ---
 
-# What It Helps You Track
+## What It Helps You Track
 
 - Weekly, monthly, and yearly business performance without rebuilding reports every reporting cycle.
 
@@ -51,7 +52,7 @@ Try the browser version for free. If you need the Excel version, you can buy it 
 
 ---
 
-# Quick Start Workflow
+## Quick Start Workflow
 
 The workbook is designed around a simple operational principle:
 
@@ -132,7 +133,7 @@ There is no need to rebuild formulas, recreate Pivot Tables, redesign charts, or
 ---
 
 > **Set a few key parameters. Drop in your existing data. Get the analysis. Refresh whenever new reports become available.**
-# Why I Built This
+## Why I Built This
 
 Every Amazon seller exports reports.
 
@@ -171,7 +172,7 @@ That is the purpose of this project—not to automate spreadsheets, but to stand
 
 ---
 
-# Common Amazon Reporting Problems This Solves
+## Common Amazon Reporting Problems This Solves
 
 | Problem | Without This Tool | With This Tool |
 |----------|------------------|----------------|
@@ -184,7 +185,7 @@ That is the purpose of this project—not to automate spreadsheets, but to stand
 
 ---
 
-# Who This Is For
+## Who This Is For
 
 This project is designed for professionals who regularly prepare Amazon Business Reviews and need a reliable, repeatable reporting workflow rather than another static dashboard.
 
@@ -209,7 +210,7 @@ Open the Browser version or Excel workbook, import exported reports, refresh the
 
 ---
 
-# About
+## About
 
 I build lightweight decision-support tools for situations where there are simply too many moving parts to keep in your head.
 
@@ -220,14 +221,14 @@ Every project starts with the same question:
 > **What information needs to exist in one place so the next business decision can be made with confidence?**
 
 **Amazon Business Review Data Engine** is one example of that philosophy. It transforms repetitive reporting work into a reusable analytical framework, allowing analysts to spend less time preparing spreadsheets and more time understanding what is actually happening inside the business.
-# Technical Details
+## Technical Details
 
 <details>
 <summary><strong>For technical reviewers, Excel practitioners, and collaborators</strong></summary>
 
 ---
 
-# Workbook Architecture
+## Workbook Architecture
 
 The workbook follows a layered analytical architecture instead of a traditional spreadsheet layout.
 
@@ -299,7 +300,7 @@ Dash_Executive
 
 ---
 
-# Three Traps That Catch Even Experienced Amazon Analysts
+## Three Traps That Catch Even Experienced Amazon Analysts
 
 ---
 
@@ -500,7 +501,7 @@ Improve Listing
 
 ---
 
-# Example Scenario
+## Example Scenario
 
 A brand selling kitchen accessories exports weekly reports from Amazon Seller Central, Sellerboard, and Search Query Performance.
 
@@ -537,7 +538,7 @@ The reporting process takes only a few minutes and produces a repeatable executi
 
 ---
 
-# Formula Reference
+## Formula Reference
 
 <details>
 <summary>Configuration Layer</summary>
@@ -593,7 +594,7 @@ The reporting process takes only a few minutes and produces a repeatable executi
 
 ---
 
-# Validation Rules
+## Validation Rules
 
 | Field | Rule | Error Behavior |
 |--------|------|----------------|
@@ -614,7 +615,7 @@ The reporting process takes only a few minutes and produces a repeatable executi
 
 ---
 
-# Other Tools in This Series
+## Other Tools in This Series
 
 - **Inventory Replenishment Planner** — Forecast stock depletion and reorder timing.
 - **Amazon PPC Budget Optimizer** — Allocate advertising spend based on profitability rather than impressions.
@@ -625,7 +626,7 @@ More decision-support tools will be published through the GitHub repository and 
 
 ---
 
-# License
+## License
 
 Licensed under the **Apache License 2.0**.
 
