@@ -1,6 +1,8 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
-# Amazon-Geschäftsreview-Engine
+# Amazon Business Review Engine: Automatisierte Amazon-WBR-, SQP- & Profitabilitäts-Analysevorlage (Excel & Browser)
+<img width="2357" height="1228" alt="image" src="https://github.com/user-attachments/assets/2ed924df-0f35-4981-bd63-adeaf6b87875" />
+
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
@@ -9,222 +11,216 @@
 
 ---
 
-## Verwandeln Sie exportierte Amazon-Berichte in wenigen Minuten in geschäftsfertige Business Reviews — kostenlos, ohne Installation, sowohl im Browser als auch in Excel.
+## Verwandeln Sie exportierte Amazon Seller Central-, SQP- und Sellerboard-Berichte in wenigen Minuten in geschäftsfertige Weekly Business Reviews (WBR) — kostenlos im Browser & wiederverwendbar in Excel
 
-Statt Stunden mit der Bereinigung von CSV-Dateien, dem Neuaufbau von Formeln und der Neuerstellung wöchentlicher Berichte zu verbringen, standardisiert dieses Projekt Ihren gesamten Amazon-Business-Review-Workflow in einer wiederholbaren Analysepipeline.
+**Amazon Business Review Engine** ist eine kostenlose **Analysevorlage für Amazon Weekly Business Review (WBR) und Monthly Business Review (MBR)** ohne Installation, verfügbar sowohl als **interaktive Webbrowser-Anwendung** als auch als **herunterladbare Microsoft-Excel-Arbeitsmappe (`.xlsx`)**. Speziell entwickelt für **Amazon-FBA-Markeninhaber, Marketplace-Manager, eCommerce-Finanzanalysten und Amazon-PPC-Agenturen**, konsolidiert dieses leichtgewichtige Entscheidungsunterstützungstool rohe CSV-Exporte aus **Amazon Seller Central Business Reports**, **Amazon Search Query Performance (SQP)** und **Sellerboard Profit & Loss (P&L)** in einer automatisierten Analysepipeline — und liefert sofort **Parent-ASIN-Roll-ups, Child-SKU-Profitabilität, TACoS/ACoS-Werbeeffizienz und Keyword-Marktanteils-Diagnosen** — ganz ohne manuelle `VLOOKUP`/`XLOOKUP`-Bereinigung, kaputte Pivot-Tabellen oder kostenpflichtige API-Abonnements.
 
-Speziell für Amazon-Verkäufer, Agenturen und eCommerce-Analysten entwickelt, führt das Tool Exporte aus **Amazon Seller Central**, **Search Query Performance (SQP)** und **Sellerboard** in einem einheitlichen Analysemodell zusammen, das wöchentliche, monatliche und jährliche Performance-Reviews mit minimalem manuellem Aufwand erstellt.
-
-Statt als weiteres Dashboard zu fungieren, dient die Arbeitsmappe als leichtgewichtiges Framework zur Entscheidungsunterstützung. Rohdaten aus dem Betrieb werden in standardisierte Geschäftsfakten umgewandelt, bevor automatisch Einblicke auf SKU-, Parent-ASIN-, Keyword-, Profitabilitäts-, Werbe- und Executive-Ebene generiert werden.
+Statt als weiteres statisches Vanity-Dashboard zu fungieren, arbeitet die Arbeitsmappe als standardisiertes **Amazon-FBA-Business-Intelligence- und Varianzanalyse-Framework**. Rohe Betriebsdaten werden automatisch in relationale Geschäftsfaktentabellen normalisiert, um **Week-over-Week (WoW)-, Month-over-Month (MoM)- und Year-over-Year (YoY)-Performance-Reviews** mit minimalem manuellem Aufwand zu erstellen.
 
 Das Ziel ist einfach:
 
-> Verbringen Sie weniger Zeit mit der Aufbereitung von Berichten.
+> **Verbringen Sie weniger Zeit mit der Bereinigung von Seller-Central-CSV-Dateien und dem Neuaufbau von Tabellen.**
 >
-> Verbringen Sie mehr Zeit damit, zu verstehen, was sich im Geschäft tatsächlich verändert hat.
+> **Verbringen Sie mehr Zeit damit, zu diagnostizieren, was sich in Ihrem Amazon-Umsatz, Ihrem Traffic, Ihrer Conversion und Ihrem Nettogewinn tatsächlich verändert hat.**
 
 ---
 
-**Keine Registrierung. Keine Installation. Kostenlos im Browser.**
+### Kostenlos im Browser testen oder die wiederverwendbare Excel-WBR-Vorlage herunterladen
 
-Testen Sie die Browserversion kostenlos. Wenn Sie die Excel-Version benötigen, können Sie sie mit einer 30-tägigen Geld-zurück-Garantie ohne Wenn und Aber kaufen.
+**Keine Registrierung. Keine Softwareinstallation. 100 % kostenlose interaktive Analyse in Ihrem Browser.**
 
- **🌐 Im Browser öffnen**  👉 [*HTML-Demo*](https://hyvoid.github.io/Amazon-Business-Review-Engine/)
+Testen Sie die Analyse-Engine sofort mit dem browserbasierten Web-Tool. Wenn Sie bereit sind, ein dauerhaftes, Offline-Reporting-Archiv für Ihr Team aufzubauen, holen Sie sich die vollständige **Microsoft-Excel-WBR- & SQP-Analysevorlage** — unterstützt durch eine **30-tägige Geld-zurück-Garantie ohne Wenn und Aber**.
 
- **📥 Excel herunterladen**   👉 [*Download-Link*](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
- 
- Verfügbar als **Browser**- und **Excel**-Version. Einfach öffnen, exportierte Berichte importieren, aktualisieren und mit der Analyse beginnen.
+* 🌐 **Testen Sie das kostenlose Web-Tool** 👉 [**Starten Sie die interaktive Amazon-WBR- & SQP-Analytics-Web-App in Ihrem Browser (keine Registrierung erforderlich)**](https://hyvoid.github.io/amazon-wbr-sqp-analytics-template/)
+* 📥 **Holen Sie sich die Offline-Excel-Arbeitsmappe** 👉 [**Laden Sie die automatisierte Amazon-Business-Review-Excel-Vorlage (.xlsx) für wiederkehrendes WBR- & Profitabilitäts-Tracking herunter**](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
 
----
-
-## Was es Ihnen hilft zu verfolgen
-
-- Wöchentliche, monatliche und jährliche Geschäftsperformance, ohne die Berichte in jedem Reporting-Zyklus neu aufzubauen.
-
-- Welche SKUs, Parent ASINs oder Produktgruppen tatsächlich Umsatzwachstum oder Gewinnrückgänge antreiben.
-
-- Ob Traffic-Verluste aus schrumpfender Marktnachfrage, schwächeren Klickraten oder nachlassender Conversion-Performance stammen.
-
-- Welche Such-Keywords ihren Kaufanteil verlieren, bevor sie zu erheblichen Umsatzproblemen werden.
-
-- Executive-KPIs — einschließlich Umsatz, Gewinn, PPC-Ausgaben und ACoS — in einer einzigen standardisierten Business Review.
-
-- Historische Geschäftsveränderungen anhand konsistenter WoW-, MoM- und YoY-Vergleiche statt manuell zusammengesetzter Tabellen.
+Verfügbar sowohl als **Browser**- als auch als **Excel**-Edition. Konfigurieren Sie einfach Ihre Berichtsperioden, fügen Sie Ihre exportierten Amazon-CSV-Berichte ein, aktualisieren Sie das Modell und beginnen Sie mit der Analyse.
 
 ---
 
-## Schnellstart-Workflow
+## Was es Ihnen hilft zu verfolgen: Amazon-Verkäufer-Painpoints vs. automatisierte WBR-Lösungen
 
-Die Arbeitsmappe basiert auf einem einfachen operativen Prinzip:
-
-**Einmal konfigurieren. Neue Berichte importieren. Regelmäßig aktualisieren.**
-
-Keine Formeln müssen kopiert werden.
-Keine Berichte müssen neu aufgebaut werden.
-Keine Dashboards müssen neu erstellt werden.
-
-### 1. Reporting-Parameter konfigurieren
-
-Öffnen Sie das Arbeitsblatt **Config_Param** und definieren Sie die Reporting-Konfiguration.
-
-Typische Parameter sind:
-
-- Analysezeitraum (wöchentlich oder monatlich)
-- Aktuelle Berichtsperiode
-- Vergleichsperiode
-- SKU-zu-Parent-ASIN-Zuordnungen
-- Optionale Referenztabellen wie Wechselkurse oder Produktgruppen
-
-Diese Einstellungen bleiben nach der Erstkonfiguration in der Regel unverändert.
+| Amazon Operations- & Reporting-Painpoint | Kernmetriken & häufig verfolgte KPIs | Wie die Analyse-Engine das Problem löst |
+| :--- | :--- | :--- |
+| **Wöchentliches (WBR) & monatliches (MBR) wiederholtes Neuaufbauen von Tabellen** | Ordered Product Sales, Units Ordered, Nettogewinn, WoW-/MoM-/YoY-Varianz (%) | Ersetzt manuelles CSV-Formatieren und Kopieren von Formeln durch eine dauerhafte **Configure-Import-Refresh**-Pipeline, die Executive-Reviews in Sekunden aktualisiert. |
+| **Blinde Flecken beim Umsatz-/Gewinnbeitrag von Child SKUs & Parent ASINs** | Parent-ASIN-Roll-up-Umsatz, Child-SKU-Nettomarge, Beitrag zur Gesamtvarianz ($\Delta\$$) | Isoliert automatisch die genauen **Parent ASINs, Child SKUs oder Produktgruppen**, die Umsatzwachstum an der Spitze oder Margenerosion am unteren Ende antreiben. |
+| **Unerklärliche Rückgänge organischen Traffics vs. sinkende Listing-Conversions** | Sessions, Page Views, Click-Through Rate (CTR), Unit Session Percentage (CVR), Buy Box % | Zerlegt Umsatzrückgänge in **externe Schrumpfungen der Marktnachfrage** gegenüber **interne CTR- oder Conversionsrate-Engpässe des Listings**. |
+| **Stille Erosion von Keyword-Rankings & SQP-Kaufanteil** | SQP-Impressions, Click Share, Cart Add Share, **Search Query Purchase Share (%)** | Parst **Amazon Search Query Performance (SQP)**-Daten, um Volumen-starke Suchbegriffe mit sinkendem Conversion-Anteil zu kennzeichnen, bevor organische Rankings kollabieren. |
+| **Getrennte PPC-Werbeausgaben & echte Nettoprofitabilität** | PPC-Ausgaben, PPC-Umsatz, **ACoS, TACoS**, Organisch-zu-Bezahlt-Umsatzverhältnis, Sellerboard-Nettogewinn | Vereint **Seller-Central-Trafficdaten** mit **Sellerboard-P&L-Exporten**, um Werbeeffizienz und echte Unit Economics in einer Ansicht zu bewerten. |
+| **Inkonsistente historische Vergleiche über Reporting-Zyklen hinweg** | Multi-Period-Run-Rates, rollierende 4-Wochen-/12-Monats-Trends, Perioden-over-Perioden-Deltas | Erzwingt standardisiertes Datums-Dimension-Mapping und einheitliche Faktentabellen, damit **WoW-, MoM- und YoY-Benchmarks** über die Zeit 100 % konsistent bleiben. |
 
 ---
 
-### 2. Vorhandene Berichte importieren
+## So automatisieren Sie Ihr Amazon Weekly Business Review (Schnellstart-Tutorial)
 
-Exportieren Sie Berichte aus bestehenden Operationssystemen wie:
+Die Arbeitsmappe basiert auf einem wartungsfreien operativen Prinzip:
 
-- Amazon Seller Central
-- Amazon Search Query Performance (SQP)
-- Sellerboard
+**Einmal konfigurieren. Rohe Amazon-CSV-Exporte importieren. Nach Zeitplan aktualisieren.**
 
-Fügen Sie jede CSV-Datei direkt in das entsprechende Rohdaten-Arbeitsblatt ein.
+Keine `XLOOKUP`- oder `SUMIFS`-Formeln müssen nach unten gezogen werden. Keine Pivot-Tabellen müssen neu zugewiesen werden. Keine Executive-Diagramme müssen von Grund auf neu erstellt werden.
 
-Kein manuelles Umsortieren von Spalten.
+### Schritt 1: Konfigurieren Sie Ihre Amazon-WBR-Berichtsperioden & die Parent-ASIN-Hierarchie
 
-Kein Neuformatieren.
+Öffnen Sie das Arbeitsblatt **`Config_Param`** und definieren Sie Ihre Basis-Reporting-Parameter:
 
-Keine Vorverarbeitung.
+1. **Analyserhythmus**: Wählen Sie die Berichtsgranularität `Weekly` (WBR) oder `Monthly` (MBR).
+2. **Zeitraumauswahl**: Legen Sie die **aktuelle Berichtsperiode** und die **Vergleichs-Benchmark-Periode** fest (WoW, MoM oder YoY).
+3. **Katalog-Taxonomie-Zuordnung**: Fügen Sie Ihre **Child-SKU-zu-Parent-ASIN-Zuordnungstabelle** sowie optional benutzerdefinierte Produktgruppenklassifikationen oder Währungswechselkurse ein.
 
-Die Arbeitsmappe standardisiert eingehende Daten automatisch in eine konsistente Analysestruktur.
-
----
-
-### 3. Ergebnisse sofort überprüfen
-
-Wählen Sie in Excel **Alles aktualisieren** (oder aktualisieren Sie die Browserversion).
-
-Die Analyse-Engine aktualisiert automatisch:
-
-- Executive-KPI-Dashboard
-- SKU-Performance-Analyse
-- Parent-ASIN-Zusammenfassungen
-- Keyword-Chancen-Analyse
-- Wöchentliche / monatliche / Year-over-Year-Vergleiche
-- Executive-Trenddiagramme
-- Top-Performance-Gewinne und -Verluste
-
-Keine manuellen Berechnungen erforderlich.
+*Hinweis: Einmal in der Excel-Vorlage konfiguriert, bleiben Ihre Kataloghierarchie und benutzerdefinierten Gruppierungen für alle künftigen Reporting-Zyklen gespeichert.*
 
 ---
 
-### 4. Nach festem Zeitplan aktualisieren
+### Schritt 2: Importieren Sie rohe CSV-Exporte aus Seller Central, SQP und Sellerboard
 
-Jeder Reporting-Zyklus folgt genau demselben Workflow:
+Exportieren Sie Ihre Standard-Betriebsberichte direkt aus Ihrem bestehenden Amazon-Tech-Stack:
 
-Berichte exportieren.
+* **Amazon Seller Central Business Reports** (`Detail Page Sales and Traffic by Child Item` CSV)
+* **Amazon Brand Analytics — Search Query Performance (SQP)** (ASIN-Level- oder Brand-Level-CSV-Export)
+* **Sellerboard Profit & Loss (P&L) Dashboard-Export** (Produkt-/SKU-Profitabilitätsaufschlüsselung CSV)
 
-Rohdaten ersetzen.
-
-Aktualisieren.
-
-Die aktualisierten Geschäftseinblicke prüfen.
-
-Es ist nicht nötig, Formeln neu aufzubauen, Pivot-Tabellen neu zu erstellen, Diagramme neu zu entwerfen oder Dashboards erneut zu konfigurieren.
+Fügen Sie jede rohe CSV-Datei direkt in den dafür vorgesehenen Eingabe-Tab ein. **Ordnen Sie keine Spalten um, entfernen Sie keine Kopfzeilen und formatieren Sie keine Zahlen vor.** Die interne Normalisierungsschicht der Engine mappt und bereinigt eingehende Schemata automatisch.
 
 ---
 
-> **Legen Sie einige Schlüsselparameter fest. Fügen Sie Ihre vorhandenen Daten ein. Erhalten Sie die Analyse. Aktualisieren Sie, sobald neue Berichte verfügbar sind.**
+### Schritt 3: Aktualisieren Sie das Datenmodell, um Executive-KPI- & SKU-Insights sofort zu generieren
 
-*   👉 [*Laden Sie die Excel-Vorlage für die Offline-Nutzung herunter*](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
+Klicken Sie in Microsoft Excel auf **`Data -> Refresh All`** (oder klicken Sie in der Webbrowser-Edition auf „Berechnen“). Die Analyse-Engine berechnet und befüllt sofort:
 
-## Warum ich das gebaut habe
-
-Jeder Amazon-Verkäufer exportiert Berichte.
-
-Nur wenige haben einen Reporting-Prozess.
-
-In den meisten Unternehmen beginnt die Wochenreview mit dem Herunterladen von CSV-Dateien aus mehreren Systemen, dem Anpassen von Spaltenformaten, dem Löschen unnötiger Felder, dem Neuaufbau von Formeln, der Neuerstellung von Pivot-Tabellen und dem Kopieren von Diagrammen in PowerPoint. Wenn die Daten endlich bereit sind, konzentriert sich das Meeting bereits darauf, Zahlen zu erklären, statt das Geschäft dahinter zu verstehen.
-
-Der eigentliche Engpass ist nicht die Datenverfügbarkeit — es ist das Fehlen eines wiederholbaren Analyserahmens.
-
-Ich habe dieses Projekt gebaut, nachdem ich dasselbe Muster in verschiedenen Amazon-Geschäften immer wieder gesehen hatte. Jede Woche verbrachten Analysten Stunden mit der Erstellung von Berichten, die fast identisch mit denen der Vorwoche waren. Jeden Monat mussten Vergleichsperioden manuell neu aufgebaut werden. Jedes Quartal wurden historische Trends zunehmend schwieriger abzustimmen, weil sich jede Tabelle unabhängig weiterentwickelte.
-
-Das Problem war nicht Excel.
-
-Das Problem war, dass Excel als Dokument statt als Analyse-Engine verwendet wurde.
-
-Dieses Projekt macht den Denkprozess hinter einem Amazon Business Review zum Produkt. Statt jeden Reporting-Zyklus als neue Tabelle zu behandeln, standardisiert es Datenaufbereitung, Vergleichslogik, KPI-Berechnung und Performance-Diagnose in einem wiederverwendbaren Framework.
-
-### Vorher
-
-Der Umsatz ist um 8 % gesunken.
-
-Das Team verglich manuell mehrere Berichte, um festzustellen, ob der Rückgang von Werbeeffizienz, schrumpfender Suchnachfrage, Bestandsproblemen oder schwach performenden Produkten kam. Stunden vergingen mit dem Sammeln von Belegen, bevor eine sinnvolle Diskussion beginnen konnte.
-
-### Nachher
-
-Das Dashboard identifiziert sofort:
-
-- Drei SKUs, die über 70 % des Umsatzrückgangs verursachen.
-- Zwei Keywords mit hohem Volumen und erheblichen Verlusten beim Kaufanteil.
-- Stabile Werbeeffizienz trotz reduziertem Traffic.
-- Sinkendes Suchvolumen im Markt als Hauptursache für niedrigere Verkäufe.
-
-Statt zu fragen *„Was ist passiert?"*, beginnt die Diskussion mit *„Wie sollten wir reagieren?"*
-
-Das ist der Zweck dieses Projekts — nicht Tabellen zu automatisieren, sondern Geschäftsdenken in einem wiederholbaren System zur Entscheidungsunterstützung zu standardisieren.
+* **Executive-KPI-Übersichts-Scorecard** (Bruttoumsatz, Einheiten, Nettogewinn, Nettomarge, TACoS, ACoS)
+* **Parent-ASIN- & Child-SKU-Varianzbeitrags-Ranking** (Top-Umsatzgewinner & -Verlierer)
+* **Search Query Performance (SQP) Chancen- & Verteidigungsmatrix** (Impressions-, Click-Share- und Purchase-Share-Deltas)
+* **Traffic-vs.-Conversion-Diagnose-Aufschlüsselung** (Sessions-, CTR- und Unit-Session-Percentage-Trends)
+* **Automatisierte WoW-, MoM- und YoY-Executive-Trenddiagramme**
 
 ---
 
-## Häufige Amazon-Reporting-Probleme, die dieses Tool löst
+### Schritt 4: Vom einzelnen Browser-Test zu einem wiederholbaren Offline-Excel-WBR-Workflow skalieren
 
-| Problem | Ohne dieses Tool | Mit diesem Tool |
-|----------|------------------|----------------|
-| Wöchentliche Berichte erfordern Stunden manueller Vorbereitung | CSV-Dateien werden neu formatiert, Formeln kopiert, Pivot-Tabellen neu gebaut und Diagramme in jedem Reporting-Zyklus neu erstellt. | Berichte exportieren, Rohdaten einfügen, aktualisieren und automatisch generierte Geschäftseinblicke prüfen. |
-| Mehrere Datenquellen können nicht gemeinsam analysiert werden | Exporte aus Seller Central, Sellerboard und SQP bleiben isoliert und erzwingen manuelle Abstimmung. | Umsatz, Werbung, Profitabilität und Keyword-Performance werden in einem einheitlichen Analysemodell standardisiert. |
-| Performance-Veränderungen können nicht schnell erklärt werden | Umsatzveränderungen sind sichtbar, aber die verantwortliche SKU, das Parent ASIN oder das Keyword zu identifizieren erfordert umfangreiche manuelle Nachforschung. | Die Beitragsanalyse isoliert automatisch die Produkte und Suchbegriffe, die die Geschäftsveränderung antreiben. |
-| Historische Vergleiche werden inkonsistent | Wöchentliche und monatliche Arbeitsmappen entwickeln sich unabhängig, wodurch WoW-, MoM- und YoY-Vergleiche unzuverlässig werden. | Standardisierte Berichtsperioden und einheitliche Faktentabellen erzeugen konsistente Trendanalysen über alle Reporting-Zyklen. |
-| Executive-Meetings konzentrieren sich auf das Aufbereiten von Zahlen statt auf Entscheidungen | Analysten verbringen mehr Zeit mit dem Sammeln von Informationen als mit deren Interpretation. | Executive-Dashboards zeigen die wirkungsstärksten Geschäftsveränderungen, bevor das Meeting beginnt. |
-| Operatives Wissen hängt von Tabellen-Experten ab | Reporting-Workflows werden schwer wartbar, wenn sich Formeln, Layouts oder Personal ändern. | Ein standardisiertes Analyserahmenwerk minimiert den Wartungsaufwand und macht Reporting teamübergreifend wiederholbar. |
+Während die **kostenlose Browserversion** ideal für sofortige, einmalige Diagnose-Audits ist, erfordert die Verwaltung eines laufenden Amazon-Geschäfts historische Kontinuität und lokale Datenhoheit.
 
----
+Mit dem Upgrade auf die **wiederverwendbare Microsoft-Excel-Vorlage (`.xlsx`)** erhalten Sie einen dauerhaften, wiederholbaren Workflow:
 
-## Für wen dieses Projekt ist
+1. **Speichern Sie Ihre Katalogkonfiguration dauerhaft**: Behalten Sie Ihre SKU-zu-Parent-ASIN-Zuordnungen, Kostenstrukturen und benutzerdefinierten Produkt-Tags lokal gespeichert — nie wieder Setup-Parameter neu eingeben.
+2. **Aktualisieren Sie wöchentlich in unter 3 Minuten**: Fügen Sie jeden Montagmorgen einfach die rohen CSV-Exporte der letzten Woche über die Rohdaten-Tabs ein, klicken Sie auf **Refresh All** und gehen Sie mit einem kompletten WBR-Deck in Ihr Führungstreffen.
+3. **Wahren Sie Offline-Datenschutz & Versionskontrolle**: Speichern Sie sensible SKU-Margen- und Sellerboard-Finanzdaten sicher auf Ihrer lokalen Festplatte oder dem Firmen-SharePoint/OneDrive, ohne eigene P&L-Zahlen auf Dritt-SaaS-Server hochzuladen.
 
-Dieses Projekt richtet sich an Fachleute, die regelmäßig Amazon Business Reviews erstellen und einen zuverlässigen, wiederholbaren Reporting-Workflow brauchen statt eines weiteren statischen Dashboards.
-
-Besonders geeignet ist es für:
-
-- Amazon-Markeninhaber, die mehrere SKUs oder Parent ASINs verwalten.
-- Marketplace-Manager, die für wöchentliche und monatliche Performance-Reviews verantwortlich sind.
-- eCommerce-Analysten, die operative, Werbe- und Finanzberichte zusammenführen.
-- Amazon-Agenturen, die mehrere Kundenkonten mit standardisierten Berichten betreuen.
-- Finanz- und Operationsteams, die konsistentes KPI-Reporting über Berichtsperioden suchen.
-- Excel-Praktiker, die leichtgewichtige Analyselösungen bauen wollen, ohne Enterprise-BI-Plattformen einzuführen.
-
-Es ist **nicht** geeignet für:
-
-- Unternehmen, die Echtzeit-API-Integrationen oder Enterprise-Data-Warehouses benötigen.
-- Organisationen, die eine vollständige ERP- oder Business-Intelligence-Plattform suchen.
-- Nutzer, die stark angepasste Reporting-Systeme mit umfangreicher Softwareentwicklung benötigen.
-
-Für die tägliche Nutzung sind keine Tabellenkalkulationskenntnisse erforderlich.
-
-Öffnen Sie die Browserversion oder die Excel-Arbeitsmappe, importieren Sie exportierte Berichte, aktualisieren Sie die Daten und beginnen Sie sofort mit der Prüfung standardisierter Geschäftseinblicke.
+👉 [**Laden Sie die wiederverwendbare Amazon-Business-Review-Excel-Vorlage (.xlsx) herunter — 30 Tage Geld-zurück-Garantie**](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
 
 ---
 
-## Über dieses Projekt
+## Die Geschäftslogik & Methodik
 
-Ich baue leichtgewichtige Tools zur Entscheidungsunterstützung für Situationen, in denen es schlicht zu viele bewegliche Teile gibt, um sie im Kopf zu behalten.
+Die meisten Amazon-Reporting-Tabellen scheitern, weil sie Symptome behandeln (oberflächliche Metrik-Schwankungen), statt die eigentlichen geschäftlichen Ursachen zu isolieren. **Amazon Business Review Engine** macht institutionelle eCommerce-FP&A- und Marketplace-Management-Methodik in vier zentralen Analyseebenen als Produkt nutzbar:
 
-Die meisten Geschäftsprobleme erfordern keine weitere Enterprise-Plattform — sie erfordern einen besseren Weg, Informationen zu organisieren, damit die nächste Entscheidung offensichtlich wird.
+### 1. Multi-Source-ETL & relationale Faktentabellen-Normalisierung
+Amazon-Betriebsdaten sind naturgemäß fragmentiert: **Seller Central Business Reports** verfolgen Sessions und Ordered Product Sales nach Child ASIN/SKU; **Sellerboard** verfolgt COGS, FBA-Gebühren, PPC-Ausgaben und Nettogewinn; **Search Query Performance (SQP)** verfolgt das Suchverhalten der Kunden auf Query-Ebene.
+* **Die Methode**: Die Arbeitsmappe wendet strukturiertes **Extract-Transform-Load (ETL)-Schema-Mapping** an, um abweichende Datumsformate, SKU-Identifikatoren und Parent-Child-Hierarchien in einem einzigen einheitlichen Datenmodell zu harmonisieren.
+* **Das gelöste Geschäftsproblem**: Beseitigt Datensilos und manuelle Abstimmungsfehler und stellt sicher, dass Traffic-, Werbe- und Nettogewinnmetriken auf identischer dimensionaler Granularität bewertet werden.
 
-Jedes Projekt beginnt mit derselben Frage:
+### 2. Pareto-Varianzdekomposition & Contribution-Bridge-Analyse
+Wenn der aggregierte Shop-Umsatz Woche für Woche um 8 % sinkt, verbergen shopweite Durchschnitte den Verursacher. In 80 % der Amazon-Kataloge wird die Umsatzvolatilität von weniger als 20 % der SKUs getrieben.
+* **Die Methode**: Die Engine führt eine **gewichtete Varianzbeitragsanalyse** durch ($\Delta \text{Metric}_i / \sum |\Delta \text{Metric}|$) und ordnet jeden Parent ASIN und Child SKU nach seinem exakten Dollar- und prozentualen Einfluss auf die gesamte Veränderung gegenüber der Vorperiode.
+* **Das gelöste Geschäftsproblem**: Ersetzt stundenlange manuelle Drill-down-Untersuchungen durch eine sofortige **Top-Gainers-/Top-Decliners-Attributions-Bridge** und ermöglicht Operatoren, sich sofort auf die 3–5 SKUs zu konzentrieren, die den Unterschied machen.
 
-> **Welche Informationen müssen an einem Ort vorhanden sein, damit die nächste Geschäftsentscheidung mit Sicherheit getroffen werden kann?**
+### 3. E-Commerce-Umsatztrichter-Dekomposition (Nachfrage- vs. Conversion-Diagnostik)
+Im Amazon-Marketplace-Management führt eine Fehldiagnose eines Umsatzrückgangs zu teuren Fehlern — etwa der Erhöhung von PPC-Geboten, wenn der eigentliche Engpass ein kaputtes Hauptbild oder eine verlorene Buy Box ist.
+* **Die Methode**: Das Modell zerlegt Ordered Product Sales entlang der grundlegenden eCommerce-Identität:
+  $$\text{Revenue} = \text{Market Impressions} \times \text{CTR (Traffic Capture)} \times \text{Unit Session Percentage (CVR)} \times \text{Average Selling Price (ASP)}$$
+* **Das gelöste Geschäftsproblem**: Trennt **makroebentliche Suchnachfrage-Verschiebungen** (sinkende Kategorie-Impressions) von **mikroebentlichen Listing-Ausführungsfehlern** (sinkende CTR aufgrund von Preis/Hauptbild oder sinkende CVR aufgrund von Rezensionen/Nichtverfügbarkeit) und führt zu präzisen operativen Korrekturen.
 
-**Amazon Business Review Data Engine** ist ein Beispiel für diese Philosophie. Es verwandelt repetitive Reporting-Arbeit in ein wiederverwendbares Analyserahmenwerk, sodass Analysten weniger Zeit mit der Aufbereitung von Tabellen verbringen und mehr Zeit damit, zu verstehen, was im Geschäft tatsächlich passiert.
+### 4. Search Query Share-of-Voice (SoV)- & Trichter-Attritions-Modellierung
+Bis ein Hero-ASIN seinen organischen Platz-auf-Seite-1-Rang verliert, ist der Umsatzschaden bereits geschehen. Traditionelle Rank-Tracker zeigen nur, wo Sie heute ranken — nicht *warum* Amazons Algorithmus Sie abwertet.
+* **Die Methode**: Mithilfe von **Amazon Search Query Performance (SQP)**-Daten berechnet die Engine Perioden-over-Perioden-Verschiebungen entlang des Keyword-Conversion-Trichters: **Impression Share $\rightarrow$ Click Share $\rightarrow$ Cart Add Share $\rightarrow$ Purchase Share**.
+* **Das gelöste Geschäftsproblem**: Dient als Frühwarn-Diagnoseradar. Wenn ein zentrales Keyword stabilen Impression Share aufweist, aber einen scharfen Rückgang des **Purchase Share** erleidet, kennzeichnet das Modell eine unmittelbare Wettbewerbs-Conversionsbedrohung für genau diesen Suchbegriff, bevor das organische Ranking erodiert.
+
+---
+
+## Warum ich das gebaut habe: Standardisierung von Amazon-FBA-Entscheidungen
+
+Jeder Amazon-Verkäufer exportiert Seller-Central-Berichte. Nur sehr wenige haben einen wiederholbaren **Amazon-Weekly-Business-Review-Prozess**.
+
+In den meisten eCommerce-Organisationen beginnt die Montagmorgen-Business-Review mit dem Herunterladen eines halben Dutzends CSV-Dateien, dem Reparieren kaputter Datumsspalten, dem Entfernen von Währungssymbolen, dem Nach-unten-Ziehen von `XLOOKUP`-Formeln, dem Neuaufbau von Pivot-Tabellen und dem Einfügen von Screenshots in Folien. Bis die Tabelle endlich abgestimmt ist, verwendet das Team das gesamte Meeting darauf, die Zahlen zu verifizieren, statt zu entscheiden, wie das Geschäft wachsen soll.
+
+Der eigentliche Engpass ist nicht die Datenverfügbarkeit — es ist das Fehlen eines **wiederverwendbaren analytischen Datenmodells**.
+
+Ich habe **Amazon Business Review Engine** gebaut, nachdem ich beobachtet hatte, wie Markenmanager und eCommerce-Analysten genau diesen manuellen Zyklus Woche für Woche wiederholten. Das Problem war nicht Microsoft Excel. Das Problem war, Excel als statisches Notizbuch statt als strukturierte **Entscheidungsunterstützungs-Engine** zu verwenden.
+
+### Vorher: Manuelles Tabellen-Chaos
+
+Der Shop-Umsatz sank um 8 % WoW. Das Operationsteam verbrachte vier Stunden mit dem Abgleich von Seller-Central-Trafficberichten, Sellerboard-P&L-Exporten und PPC-Campaign-Manager-Daten, um herauszufinden, ob der Rückgang von geringeren Werbeausgaben, saisonalen Suchvolumenrückgängen, nicht verfügbaren Varianten oder sinkenden Conversionsraten stammte.
+
+### Nachher: Sofortige Root-Cause-Diagnose
+
+Nach dem Aktualisieren der Arbeitsmappe zeigt das Executive-Dashboard sofort:
+
+* **SKU-Attribution**: Drei Child SKUs unter einem Parent ASIN verursachen **72 % des gesamten Umsatzrückgangs**.
+* **Keyword-Trichter-Alarm**: Zwei zentrale Volumen-Keywords erlitten erhebliche **SQP-Purchase-Share-Verluste** trotz stabilen Impression-Volumens.
+* **Werbe-Gesundheit**: Shopweite **TACoS und ACoS** blieben stabil, was PPC-Geboteffizienz als Ursache ausschließt.
+* **Umsetzbare Erkenntnis**: Ein Wettbewerbs-Preisrückgang auf einem Hero-Keyword komprimierte die Listing-CVR — und verschob die Diskussion des Teams von *„Was ist mit den Verkäufen passiert?“* zu *„Wie verteidigen wir heute die Conversion auf diesen zwei Suchbegriffen?“*
+
+---
+
+## Häufige Amazon-FBA-Reporting-Probleme, die diese Engine löst (Manuelle Tabellen vs. automatisiertes WBR-Modell)
+
+| Amazon-Reporting-Engpass & operatives Risiko | Traditioneller manueller Excel-Workflow (ohne dieses Tool) | Automatisierte WBR-Entscheidungsunterstützungs-Engine (mit diesem Tool) |
+| :--- | :--- | :--- |
+| **Stundenverlust durch wöchentliche CSV-Datenbereinigung** | Analysten formatieren Seller-Central-CSVs manuell neu, schreiben `XLOOKUP`/`SUMIFS`-Formeln, bauen Pivot-Tabellen neu auf und passen Diagrammbereiche jeden Montag an. | **Exportieren, Einfügen und Aktualisieren.** Rohe CSV-Schemata werden in unter 3 Minuten automatisch in Executive-Dashboards normalisiert. |
+| **Silolierte Seller-Central-, SQP- und Sellerboard-Daten** | Trafficberichte (`Business Reports`), Keyword-Trichter (`SQP`) und Nettomargen (`Sellerboard`) liegen in separaten Tabs ohne einheitlichen relationalen Schlüssel. | **Einheitliche Faktentabellen-Architektur** vereint Umsatz, Sessions, CVR, PPC-TACoS/ACoS, Nettogewinn und Keyword-Anteil in einem kohärenten Modell. |
+| **Langsame Root-Cause-Attribution bei Umsatzrückgängen** | Die shopweite Umsatzvarianz ist sichtbar, aber die Isolierung des exakten Child SKU, Parent ASIN oder Suchbegriffs erfordert mühsame manuelle Filterung. | **Automatisierte Varianzbeitrags-Bridges** ranken sofort die wichtigsten positiven und negativen Treiber über SKUs, Parent ASINs und Keywords. |
+| **Kaputte WoW-, MoM- und YoY-historische Benchmarks** | Ad-hoc-Wochentabellen entwickeln sich über die Zeit unabhängig weiter, was inkonsistente Datumsausrichtungen und unzuverlässige Year-over-Year-Vergleiche verursacht. | **Standardisiertes Perioden-Dimension-Mapping** erzwingt strikte zeitliche Konsistenz über wöchentliche, monatliche und YoY-Reporting-Horizonte. |
+| **Executive-Meetings, die mit Formel-Audits verschwendet werden** | Führungstreffen stocken, wenn Stakeholder die Berechnungslogik anzweifeln oder 40 Minuten damit verbringen, über mehrere Dateien hinweg Rohbelege zu suchen. | **Geschäftsfertige Entscheidungsansichten** zeigen verifizierte KPIs, Trenddiagramme und Ausnahme-Alarme *bevor* das Review-Meeting beginnt. |
+| **Zerbrechliche Key-Person-Tabellenabhängigkeit** | Komplexe kundenspezifische Arbeitsmappen brechen, wann immer ein neues SKU gestartet wird, eine Spalte sich verschiebt oder der Analyst, der die Tabelle gebaut hat, das Unternehmen verlässt. | **Produktisierte, wartungsfreie Vorlage** entkoppelt Konfiguration und Rohdateneingaben von der Berechnungs-Engine für nahtlose Teamübergaben. |
+
+---
+
+## Für wen dies ist: Rollenspezifische Amazon-Analytics- & Reporting-Anwendungsfälle
+
+Dieses Tool ist für eCommerce-Fachleute gebaut, die wiederkehrende **Amazon Business Reviews** durchführen und eine industrietaugliche, wiederholbare **Amazon-Reporting-Vorlage** benötigen statt eines weiteren teuren SaaS-Abonnements oder zerbrechlichen Tabellenwerks.
+
+* **Amazon-FBA-Markeninhaber & Private-Label-Aggregatoren**
+  * *Anwendungsfall*: Suche nach einer **Amazon-Verkäufer-Profitabilitäts- und WBR-Dashboard-Vorlage**, um die Gesundheit des Parent-ASIN-Portfolios, TACoS und den Netto-Cashflow-Beitrag zu überwachen, ohne einen dedizierten BI-Entwickler einzustellen.
+* **Amazon-Marketplace-Manager & Markenspezialisten**
+  * *Anwendungsfall*: Bedarf an einer **automatisierten Amazon-Weekly-Business-Review (WBR)-Excel-Vorlage**, um Child-SKU-Sessions, Unit Session Percentage (CVR), Buy-Box-Prozentsatz und SQP-Keyword-Anteil vor den Montag-Führungs-Syncs zu verfolgen.
+* **eCommerce-Finanzanalysten & FP&A-Fachleute**
+  * *Anwendungsfall*: Suche nach einer **standardisierten Amazon-Varianzanalyse- und P&L-Abstimmungs-Arbeitsmappe**, die operative Seller-Central-Metriken mit Sellerboard-Unit-Economics über WoW-, MoM- und YoY-Horizonte hinweg verbindet.
+* **Amazon-PPC-Agenturen & Full-Service-Marketplace-Berater**
+  * *Anwendungsfall*: Bedarf an einer **skalierbaren Kundenreporting-Vorlage für Amazon-Agenturen**, die rohe Kundenexporte in Minuten über Dutzende Markenkonten hinweg in einheitliche, geschäftsfertige Performance-Audits umwandelt.
+* **Excel-first-Operationsteams & BI-Praktiker**
+  * *Anwendungsfall*: Aufbau **leichtgewichtiger, lokale-first eCommerce-Entscheidungsunterstützungssysteme** ohne den Engineering-Aufwand von Amazon-SP-API-Pipelines, SQL-Data-Warehouses oder PowerBI/Tableau-Lizenzen.
+
+### Für wen dies NICHT konzipiert ist
+
+* Unternehmen, die Live-**Amazon-SP-API-Streaming-Integrationen** in Echtzeit oder Cloud-Data-Warehousing (Snowflake / BigQuery) benötigen.
+* Verkäufer, die einen automatisierten PPC-Gebot-Management-Bot oder eine Inventar-ERP-Nachschubsoftware suchen.
+* Nutzer, die maßgeschneiderte Softwareentwicklung statt eines standardisierten Best-Practice-Analyseframeworks suchen.
+
+---
+
+## Gebaut für wirkungsstarke Amazon-Verkäuferszenarien & Reporting-Workflows
+
+Ob Sie eine schlanke Private-Label-Marke mit 10 SKUs betreiben oder einen 500-SKU-Katalog auditieren — die Engine passt sich geschäftskritischen Workflows an:
+
+1. **Amazon-WBR-Executive-Vorbereitung am Montagmorgen**: Konsolidieren Sie die Seller-Central-, Sellerboard- und SQP-Exporte der letzten Woche in unter 5 Minuten zu einem vorstandsfertigen Performance-Review.
+2. **Post-Mortems zu Traffic/Profitabilität nach Prime Day & Q4 BFCM**: Vergleichen Sie Werbeereignis-Zeitfenster mit Basisperioden, um den echten Nettomargen-Hebel vs. PPC-ACoS/TACoS-Verwässerung zu bewerten.
+3. **Katalog-Pareto-Audits & SKU-Rationalisierung**: Identifizieren Sie Zombie-Child-SKUs, die Werbebudget und Lagerplatz verbrauchen, gegenüber Hero-Produkten mit hohen Margen, die aggressive Traffic-Skalierung verdienen.
+4. **Search Query Performance (SQP)-Keyword-Verteidigungs-Audits**: Diagnostizieren Sie, ob ein plötzlicher Umsatzrückgang eines Hero-ASINs durch eine kategorieweite Suchvolumen-Schrumpfung oder einen Wettbewerber ausgelöst wurde, der Purchase Share auf Ihren Top-10-Umsatzkeywords stiehlt.
+
+---
+
+## Über den Ersteller & die Designphilosophie
+
+Ich baue leichtgewichtige **Entscheidungsunterstützungssysteme und Analysevorlagen** für schnelllebige kommerzielle Umgebungen, in denen es zu viele bewegliche Variablen gibt, um sie im Kopf zu verfolgen.
+
+Die meisten operativen Engpässe im eCommerce erfordern kein weiteres 500-$-pro-Monat-SaaS-Dashboard — sie erfordern eine sauberere Informationsarchitektur, damit die richtige geschäftliche Entscheidung offensichtlich wird. Jedes Tool, das ich entwerfe, beginnt mit einer grundlegenden Frage:
+
+> **Welche exakten Informationen müssen an einem Ort vorhanden sein — und in welcher Struktur — damit die nächste Geschäftsentscheidung mit 100 % Sicherheit getroffen werden kann?**
+
+**Amazon Business Review Engine** ist die Krönung dieser auf Amazon-Marketplace-Betrieb angewandten Philosophie.
+
+* 🌐 **Testen Sie es kostenlos in Ihrem Browser**: [**Öffnen Sie die interaktive Amazon Business Review Web-App**](https://hyvoid.github.io/Amazon-Business-Review-Engine/)
+* 📥 **Besitzen Sie die vollständige wiederverwendbare Excel-Engine**: [**Laden Sie die Amazon Business Review Excel-Vorlage (.xlsx) auf Theseus Workshop herunter**](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
+
 ## Technische Details
 
 <details>
@@ -318,7 +314,7 @@ Das Werbebudget wird erhöht, weil der wöchentliche Umsatz sank.
 
 Der Umsatz allein erklärt nicht, warum sich die Verkäufe verändert haben.
 
-Traffic, Conversion-Rate, Bestand, Preisgestaltung und Marktnachfrage können alle ähnliche Umsatzveränderungen erzeugen.
+Traffic, Conversionsrate, Bestand, Preisgestaltung und Marktnachfrage können alle ähnliche Umsatzveränderungen erzeugen.
 
 ### Falsche Argumentation
 
@@ -511,7 +507,7 @@ Eine Marke, die Küchenzubehör verkauft, exportiert wöchentliche Berichte aus 
 
 Die Berichtsperiode ist **2026-W27**.
 
-Nach dem Ersetzen der rohen CSV-Dateien und der Auswahl von **Alles aktualisieren** baut die Arbeitsmappe die standardisierten Faktentabellen automatisch neu auf.
+Nach dem Ersetzen der rohen CSV-Dateien und der Auswahl von **Refresh All** baut die Arbeitsmappe die standardisierten Faktentabellen automatisch neu auf.
 
 Zusammenfassung des Executive-Dashboards:
 
@@ -532,7 +528,7 @@ Die Keyword-Diagnose identifiziert:
 
 - Zwei Keywords mit hohem Volumen verloren Kaufanteil.
 - Die CTR liegt weiterhin über dem Marktdurchschnitt.
-- Die Conversion-Rate sank, weil sich die Listings der Wettbewerber verbesserten.
+- Die Conversionsrate sank, weil sich die Listings der Wettbewerber verbesserten.
 
 Geschäftsempfehlung:
 
