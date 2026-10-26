@@ -133,6 +133,9 @@ There is no need to rebuild formulas, recreate Pivot Tables, redesign charts, or
 ---
 
 > **Set a few key parameters. Drop in your existing data. Get the analysis. Refresh whenever new reports become available.**
+
+*   👉 [*Download the Excel Template for Offline Use*](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
+
 ## Why I Built This
 
 Every Amazon seller exports reports.
