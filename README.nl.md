@@ -1,6 +1,8 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
-# Amazon Bedrijfsreview-Engine
+# Amazon Business Review Engine: Geautomatiseerde Amazon WBR-, SQP- & winstgevendheidsanalytics-sjabloon (Excel & browser)
+<img width="2357" height="1228" alt="image" src="https://github.com/user-attachments/assets/2ed924df-0f35-4981-bd63-adeaf6b87875" />
+
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
@@ -9,222 +11,216 @@
 
 ---
 
-## Transformeer geëxporteerde Amazon-rapporten in enkele minuten in bestuursklare bedrijfsreviews — gratis, zonder installatie, beschikbaar in zowel de browser als Excel.
+## Transformeer geëxporteerde Amazon Seller Central-, SQP- en Sellerboard-rapporten in enkele minuten in bestuursklare wekelijkse bedrijfsreviews (WBR) — gratis in de browser & herbruikbaar in Excel
 
-In plaats van uren te besteden aan het opschonen van CSV-bestanden, het herbouwen van formules en het opnieuw maken van wekelijkse rapporten, standaardiseert dit project uw volledige Amazon-bedrijfsreviewworkflow in een herhaalbare analytische pijplijn.
+**Amazon Business Review Engine** is een gratis **Amazon Weekly Business Review (WBR)- en Monthly Business Review (MBR)-analyticsjabloon** zonder installatie, beschikbaar als **interactieve webbrowserapplicatie** én als **downloadbare Microsoft Excel-werkmap (`.xlsx`)**. Speciaal gebouwd voor **Amazon FBA-merkeigenaren, marketplace-managers, eCommerce-financiële analisten en Amazon PPC-bureaus**, bundelt dit lichtgewicht beslissingsondersteunende hulpmiddel ruwe CSV-exports van **Amazon Seller Central Business Reports**, **Amazon Search Query Performance (SQP)** en **Sellerboard Profit & Loss (P&L)** in een geautomatiseerde analytische pijplijn — met direct **Parent ASIN-samenvattingen, Child SKU-winstgevendheid, TACoS/ACoS-advertentie-efficiëntie en zoekwoord-marktaandeeldiagnostiek** zonder handmatige `VLOOKUP`/`XLOOKUP`-opschoning, kapotte draaitabellen of betaalde API-abonnementen.
 
-Speciaal gebouwd voor Amazon-verkopers, bureaus en eCommerce-analisten, bundelt het exports van **Amazon Seller Central**, **Search Query Performance (SQP)** en **Sellerboard** in één verenigd analytisch model dat wekelijkse, maandelijkse en jaarlijkse prestatiereviews kan produceren met minimaal handmatig werk.
-
-In plaats van te functioneren als nog een dashboard, dient de werkmap als een lichtgewicht beslissingsondersteuningskader. Ruwe operationele gegevens worden omgezet in gestandaardiseerde bedrijfsfeiten voordat automatisch inzichten op SKU-, Parent ASIN-, zoekwoord-, winstgevendheids-, advertentie- en directieniveau worden gegenereerd.
+In plaats van te functioneren als nog een statisch ijdelheidsdashboard, opereert de werkmap als een gestandaardiseerd **Amazon FBA business intelligence- en variantieanalyseframework**. Ruwe operationele exports worden automatisch genormaliseerd naar relationele bedrijfsfeitentabellen om **Week-over-Week (WoW)-, Month-over-Month (MoM)- en Year-over-Year (YoY)**-prestatiereviews te genereren met minimaal handmatig werk.
 
 Het doel is eenvoudig:
 
-> Besteed minder tijd aan het voorbereiden van rapporten.
+> **Besteed minder tijd aan het opschonen van Seller Central CSV-bestanden en het herbouwen van spreadsheets.**
 >
-> Besteed meer tijd aan het begrijpen wat er werkelijk in het bedrijf is veranderd.
+> **Besteed meer tijd aan het diagnosticeren wat er werkelijk is veranderd in uw Amazon-omzet, verkeer, conversie en nettowinst.**
 
 ---
 
-**Geen registratie. Geen installatie. Gratis in uw browser.**
+### Probeer gratis in uw browser of download de herbruikbare Excel WBR-sjabloon
 
-Probeer de browserversie gratis. Als u de Excel-versie nodig hebt, kunt u deze kopen met een 30-daagse geld-terug-garantie zonder vragen.
+**Geen registratie. Geen installatie. 100% gratis interactieve analyse in uw browser.**
 
- **🌐 Openen in browser**  👉 [*HTML-demo*](https://hyvoid.github.io/Amazon-Business-Review-Engine/)
+Test de analytische engine direct via de webgebaseerde tool. Wanneer u klaar bent om een permanent, offline rapportagearchief voor uw team op te zetten, downloadt u de volledige **Microsoft Excel WBR- & SQP-Analytics-sjabloon** — met een **30-daagse geld-terug-garantie zonder vragen**.
 
- **📥 Excel downloaden**   👉 [*Downloadlink*](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
- 
- Beschikbaar in zowel de **browser**- als de **Excel**-versie. Open gewoon, importeer geëxporteerde rapporten, vernieuw en begin met analyseren.
+* 🌐 **Probeer de gratis webtool** 👉 [**Start de interactieve Amazon WBR- & SQP-Analytics-webapp in uw browser (geen registratie vereist)**](https://hyvoid.github.io/amazon-wbr-sqp-analytics-template/)
+* 📥 **Ontvang de offline Excel-werkmap** 👉 [**Download het geautomatiseerde Amazon Business Review Excel-sjabloon (.xlsx) voor terugkerende WBR- & winstgevendheidstracking**](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
 
----
-
-## Wat dit u helpt bij te houden
-
-- Wekelijkse, maandelijkse en jaarlijkse bedrijfsprestaties zonder de rapporten elke rapportagecyclus opnieuw te bouwen.
-
-- Welke SKU's, Parent ASIN's of productgroepen daadwerkelijk omzetgroei of winstdaling aanjagen.
-
-- Of verkeersverliesen voortkomen uit krimpende marktvraag, zwakkere doorklikratio's of dalende conversieprestaties.
-
-- Welke zoekwoorden hun aankoopshare verliezen voordat ze uitgroeien tot grote omzetproblemen.
-
-- KPI's voor de directie — waaronder Omzet, Winst, PPC-uitgaven en ACoS — in één gestandaardiseerde bedrijfsreview.
-
-- Historische bedrijfsveranderingen met consistente WoW-, MoM- en YoY-vergelijkingen in plaats van handmatig samengestelde spreadsheets.
+Beschikbaar in zowel de **browser**- als de **Excel**-editie. Configureer simpelweg uw rapportageperioden, plak uw geëxporteerde Amazon CSV-rapporten, vernieuw het model en begin met analyseren.
 
 ---
 
-## Snelle startworkflow
+## Wat het u helpt bij te houden: Amazon-sellerpijnpunten vs. geautomatiseerde WBR-oplossingen
 
-De werkmap is ontworpen rond een eenvoudig operationeel principe:
-
-**Eenmaal configureren. Nieuwe rapporten importeren. Periodiek vernieuwen.**
-
-Er hoeven geen formules gekopieerd te worden.
-Er hoeven geen rapporten herbouwd te worden.
-Er hoeven geen dashboards opnieuw gemaakt te worden.
-
-### 1. Rapportageparameters configureren
-
-Open het werkblad **Config_Param** en definieer de rapportageconfiguratie.
-
-Typische parameters zijn:
-
-- Analyseperiode (wekelijks of maandelijks)
-- Huidige rapportageperiode
-- Vergelijkingsperiode
-- SKU-naar-Parent-ASIN-toewijzingen
-- Optionele referentietabellen zoals wisselkoersen of productgroepen
-
-Deze instellingen blijven na de eerste installatie normaal gesproken ongewijzigd.
+| Pijnpunt in Amazon-operaties & rapportage | Bijgehouden kernmetrieken & KPI's met hoge frequentie | Hoe de analytische engine dit oplost |
+| :--- | :--- | :--- |
+| **Terugkerend wekelijks (WBR) & maandelijks (MBR) herbouwen van spreadsheets** | Ordered Product Sales, Units Ordered, nettowinst, WoW / MoM / YoY-variantie (%) | Vervangt handmatige CSV-opmaak en het kopiëren van formules door een permanente **Configureren-Importeren-Vernieuwen**-pijplijn die bestuursreviews in seconden bijwerkt. |
+| **Blind vlekken in Child SKU & Parent ASIN omzet-/winstbijdrage** | Omzet-rollup per Parent ASIN, nettomarge per Child SKU, bijdrage aan de totale variantie ($\Delta\$$) | Isoleert automatisch de exacte **Parent ASIN's, Child SKU's of productgroepen** die omzetgroei aanjagen of marge-erosie aan de onderkant veroorzaken. |
+| **Onverklaarde dalingen in organisch verkeer vs. dalingen in listingconversie** | Sessies, paginaweergaven, doorklikratio (CTR), Unit Session Percentage (CVR), Buy Box-% | Ontleedt omzetdalingen in **externe krimp van marktvraag** versus **interne knelpunten in de CTR of het conversiepercentage van de listing**. |
+| **Stille erosie van zoekwoordrang & aankoopshare van zoekopdrachten** | SQP-vertoningen, klikshare, winkelwagentje-toevoegshare, **aankoopshare van zoekopdrachten (%)** | Parseert **Amazon Search Query Performance (SQP)**-gegevens om zoektermen met hoog volume te signaleren die conversieaandeel verliezen voordat organische posities instorten. |
+| **Ongekoppelde PPC-advertentie-uitgaven & werkelijke nettowinstgevendheid** | PPC-uitgaven, PPC-omzet, **ACoS, TACoS**, verhouding organisch vs. betaald, Sellerboard-nettowinst | Verenigt **Seller Central-verkeersgegevens** met **Sellerboard P&L-exports** om advertentie-efficiëntie naast de werkelijke unit-economics in één weergave te beoordelen. |
+| **Inconsistente historische vergelijkingen tussen rapportagecycli** | Multi-periode run rates, doorlopende 4-weken / 12-maanden trends, periode-over-periode-delta's | Dwingt gestandaardiseerde datumdimensietoewijzing en verenigde feitentabellen af, zodat **WoW-, MoM- en YoY-benchmarks** 100% consistent blijven in de loop van de tijd. |
 
 ---
 
-### 2. Bestaande rapporten importeren
+## Hoe u uw Amazon wekelijkse bedrijfsreview automatiseert (snelstart-tutorial)
 
-Exporteer rapporten uit bestaande operationele systemen zoals:
+De werkmap is ontworpen rond een onderhoudsvrij operationeel principe:
 
-- Amazon Seller Central
-- Amazon Search Query Performance (SQP)
-- Sellerboard
+**Eenmaal configureren. Ruwe Amazon CSV-exports importeren. Volgens planning vernieuwen.**
 
-Plak elke CSV direct in het bijbehorende ruwe-gegevenswerkblad.
+Er hoeven geen `XLOOKUP`- of `SUMIFS`-formules naar beneden te worden gekopieerd. Er hoeven geen draaitabellen opnieuw te worden toegewezen. Er hoeven geen bestuursgrafieken opnieuw te worden gemaakt.
 
-Geen handmatig herarrangeren van kolommen.
+### Stap 1: Configureer uw Amazon WBR-rapportageperioden & Parent ASIN-hiërarchie
 
-Geen herformatteren.
+Open het werkblad **`Config_Param`** en definieer uw basisrapportageparameters:
 
-Geen voorbewerking.
+1. **Analysefrequentie**: Selecteer `Weekly` (WBR) of `Monthly` (MBR) als rapportagegranulariteit.
+2. **Periodekeuze**: Stel de **huidige rapportageperiode** en de **vergelijkingsbenchmarkperiode** in (WoW, MoM of YoY).
+3. **Catalogustaxonomie-toewijzing**: Plak uw **toewijzingstabel van Child SKU naar Parent ASIN** en eventueel aangepaste productgroepclassificaties of valutawisselkoersen.
 
-De werkmap standaardiseert binnenkomende gegevens automatisch in een consistente analytische structuur.
-
----
-
-### 3. Resultaten direct bekijken
-
-Selecteer **Alles vernieuwen** in Excel (of vernieuw de browserversie).
-
-De analyse-engine werkt automatisch bij:
-
-- KPI-dashboard voor de directie
-- SKU-prestatieanalyse
-- Parent ASIN-samenvattingen
-- Analyse van zoekwoordkansen
-- Wekelijkse / maandelijkse / jaar-op-jaar vergelijkingen
-- Trendgrafieken voor de directie
-- Grootste prestatiewinsten en -verliezen
-
-Geen handmatige berekeningen nodig.
+*Opmerking: Eenmaal geconfigureerd in de Excel-sjabloon blijven uw catalogushiërarchie en aangepaste groeperingen opgeslagen voor alle toekomstige rapportagecycli.*
 
 ---
 
-### 4. Volgens vaste planning vernieuwen
+### Stap 2: Importeer ruwe CSV-exports van Seller Central, SQP en Sellerboard
 
-Elke rapportagecyclus volgt exact dezelfde workflow:
+Exporteer uw standaard operationele rapporten rechtstreeks uit uw bestaande Amazon-techstack:
 
-Exporteer rapporten.
+* **Amazon Seller Central Business Reports** (CSV van `Detail Page Sales and Traffic by Child Item`)
+* **Amazon Brand Analytics — Search Query Performance (SQP)** (CSV-export op ASIN- of merkniveau)
+* **Sellerboard Profit & Loss (P&L)-dashboardexport** (CSV met winstgevendheidsuitsplitsing per product / SKU)
 
-Vervang de ruwe gegevens.
-
-Vernieuw.
-
-Bekijk de bijgewerkte bedrijfsinzichten.
-
-Er is geen noodzaak om formules te herbouwen, draaitabellen opnieuw te maken, grafieken opnieuw te ontwerpen of dashboards opnieuw te configureren.
+Plak elk ruw CSV-bestand direct in het bijbehorende invoerwerkblad. **Herrangschik geen kolommen, verwijder geen kopregels en formatteer geen getallen vooraf.** De interne normalisatielaag van de engine wijst binnenkomende schema's automatisch toe en schoont ze op.
 
 ---
 
-> **Stel een paar belangrijkste parameters in. Voeg uw bestaande gegevens toe. Ontvang de analyse. Vernieuw wanneer er nieuwe rapporten beschikbaar zijn.**
+### Stap 3: Vernieuw het datamodel om direct KPI's voor de directie & SKU-inzichten te genereren
 
-*   👉 [*Download de Excel-sjabloon voor offline gebruik*](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
+Klik op **`Data -> Refresh All`** in Microsoft Excel (of klik op berekenen in de webbrowsereditie). De analytische engine berekent en vult onmiddellijk:
 
-## Waarom ik dit heb gebouwd
-
-Elke Amazon-verkoper exporteert rapporten.
-
-Zeer weinigen hebben een rapportageproces.
-
-In de meeste bedrijven begint de wekelijkse review met het downloaden van CSV-bestanden uit meerdere systemen, het aanpassen van kolomformaten, het verwijderen van onnodige velden, het herbouwen van formules, het opnieuw maken van draaitabellen en het kopiëren van grafieken naar PowerPoint. Tegen de tijd dat de gegevens eindelijk klaar zijn, richt de vergadering zich al op het uitleggen van cijfers in plaats van op het begrijpen van het bedrijf erachter.
-
-De echte flessenhals is niet de beschikbaarheid van gegevens — het is het ontbreken van een herhaalbaar analytisch kader.
-
-Ik heb dit project gebouwd nadat ik hetzelfde patroon herhaaldelijk zag in verschillende Amazon-bedrijven. Elke week besteedden analisten uren aan het voorbereiden van rapporten die vrijwel identiek waren aan die van de vorige week. Elke maand moesten vergelijkingsperioden handmatig worden herbouwd. Elk kwartaal werden historische trends steeds moeilijker te reconciliëren omdat elke spreadsheet zich onafhankelijk ontwikkelde.
-
-Het probleem was niet Excel.
-
-Het probleem was dat Excel als document werd gebruikt in plaats van als analyse-engine.
-
-Dit project productiseert het redeneerproces achter een Amazon-bedrijfsreview. In plaats van elke rapportagecyclus als een nieuwe spreadsheet te behandelen, standaardiseert het gegevensvoorbereiding, vergelijkingslogica, KPI-berekening en prestatiediagnose in een herbruikbaar kader.
-
-### Voor
-
-De omzet daalde met 8%.
-
-Het team vergeleek handmatig meerdere rapporten om te bepalen of de daling kwam van advertentie-efficiëntie, krimpende zoekvraag, voorraadproblemen of slecht presterende producten. Er gingen uren verloren met het verzamelen van bewijs voordat een zinvolle discussie kon beginnen.
-
-### Na
-
-Het dashboard identificeert onmiddellijk:
-
-- Drie SKU's die verantwoordelijk zijn voor meer dan 70% van de omzetdaling.
-- Twee zoekwoorden met hoog volume met aanzienlijke verliezen in aankoopshare.
-- Stabiele advertentie-efficiëntie ondanks verminderd verkeer.
-- Dalend zoekvolume in de markt als belangrijkste oorzaak van lagere verkopen.
-
-In plaats van te vragen *„Wat is er gebeurd?"*, begint de discussie met *„Hoe moeten we reageren?"*
-
-Dat is het doel van dit project — geen spreadsheets automatiseren, maar bedrijfsredenering standaardiseren in een herhaalbaar beslissingsondersteunend systeem.
+* **Executive KPI-samenvattingsscorecard** (bruto-omzet, eenheden, nettowinst, nettomarge, TACoS, ACoS)
+* **Ranking van variantiebijdrage per Parent ASIN & Child SKU** (grootste omzetwinsters & verliezers)
+* **Zoekopdrachtprestatie (SQP)-kansen- & verdedigingsmatrix** (delta's in vertoningen, klikshare, aankoopshare)
+* **Diagnostische uitsplitsing verkeer vs. conversie** (trends in sessies, CTR en Unit Session Percentage)
+* **Geautomatiseerde WoW-, MoM- en YoY-trendgrafieken voor de directie**
 
 ---
 
-## Veelvoorkomende Amazon-rapportageproblemen die dit oplost
+### Stap 4: Schaal van een eenmalige browsertest naar een herhaalbare offline Excel WBR-workflow
 
-| Probleem | Zonder deze tool | Met deze tool |
-|----------|------------------|----------------|
-| Wekelijkse rapporten vereisen uren handmatige voorbereiding | CSV-bestanden worden geherformatteerd, formules gekopieerd, draaitabellen herbouwd en grafieken opnieuw gemaakt in elke rapportagecyclus. | Exporteer rapporten, plak ruwe gegevens, vernieuw en bekijk automatisch gegenereerde bedrijfsinzichten. |
-| Meerdere gegevensbronnen kunnen niet samen worden geanalyseerd | Exports van Seller Central, Sellerboard en SQP blijven geïsoleerd, wat handmatige reconciliatie afdwingt. | Omzet, advertenties, winstgevendheid en zoekwoordprestaties worden gestandaardiseerd in één verenigd analytisch model. |
-| Prestatieveranderingen kunnen niet snel worden verklaard | Omzetveranderingen zijn zichtbaar, maar het identificeren van de verantwoordelijke SKU, Parent ASIN of het zoekwoord vereist uitgebreid handmatig onderzoek. | Bijdrageanalyse isoleert automatisch de producten en zoektermen die de bedrijfsverandering aanjagen. |
-| Historische vergelijkingen worden inconsistent | Wekelijkse en maandelijkse werkmappen ontwikkelen zich onafhankelijk, waardoor WoW-, MoM- en YoY-vergelijkingen onbetrouwbaar worden. | Gestandaardiseerde rapportageperioden en verenigde feitentabellen leveren consistente trendanalyses op over rapportagecycli. |
-| Directievergaderingen richten zich op het voorbereiden van cijfers in plaats van op besluitvorming | Analisten besteden meer tijd aan het verzamelen van informatie dan aan het interpreteren ervan. | Dashboards voor de directie brengen de meest impactvolle bedrijfsveranderingen naar voren vóór de vergadering begint. |
-| Operationele kennis is afhankelijk van spreadsheetexperts | Rapportageworkflows worden moeilijk te onderhouden wanneer formules, lay-outs of personeel veranderen. | Een gestandaardiseerd analytisch kader minimaliseert onderhoud en maakt rapportage herhaalbaar tussen teams. |
+Terwijl de **gratis browsereditie** ideaal is voor directe, eenmalige diagnostische audits, vereist het beheer van een doorlopend Amazon-bedrijf historische continuïteit en lokale gegevensbeschikking.
 
----
+Door te upgraden naar de **herbruikbare Microsoft Excel-sjabloon (`.xlsx`)** ontgrendelt u een permanente, herhaalbare workflow:
 
-## Voor wie dit is
+1. **Sla uw catalogusconfiguratie permanent op**: Bewaar uw SKU-naar-Parent-ASIN-toewijzingen, kostenstructuren en aangepaste productlabels lokaal — u hoeft installatieparameters nooit meer opnieuw in te voeren.
+2. **Werk wekelijks bij in minder dan 3 minuten**: Elke maandagochtend plakt u eenvoudig de ruwe CSV-exports van de nieuwste week over de ruwe-gegevenswerkbladen, klikt u op **Alles vernieuwen** en loopt u met een compleet WBR-deck uw bestuursvergadering in.
+3. **Behoud offline gegevensprivacy & versiebeheer**: Bewaar gevoelige SKU-marge- en Sellerboard-financiële gegevens veilig op uw lokale schijf of bedrijf SharePoint/OneDrive in plaats van eigendoms-P&L-cijfers te uploaden naar SaaS-servers van derden.
 
-Dit project is ontworpen voor professionals die regelmatig Amazon-bedrijfsreviews voorbereiden en een betrouwbare, herhaalbare rapportageworkflow nodig hebben in plaats van nog een statisch dashboard.
-
-Het is bijzonder geschikt voor:
-
-- Amazon-merkeigenaren die meerdere SKU's of Parent ASIN's beheren.
-- Marketplace-managers die verantwoordelijk zijn voor wekelijkse en maandelijkse prestatiereviews.
-- eCommerce-analisten die operationele, advertentie- en financiële rapporten bundelen.
-- Amazon-bureaus die meerdere klantaccounts ondersteunen met gestandaardiseerde rapportage.
-- Financiële en operationele teams die consistent KPI-rapportage zoeken over rapportageperioden.
-- Excel-beoefenaars die lichtgewicht analytische oplossingen bouwen zonder enterprise BI-platforms te introduceren.
-
-Het is **niet** ontworpen voor:
-
-- Bedrijven die realtime API-integraties of enterprise datawarehouses nodig hebben.
-- Organisaties die op zoek zijn naar een volledig ERP- of Business Intelligence-platform.
-- Gebruikers die sterk aangepaste rapportagesystemen nodig hebben met uitgebreide softwareontwikkeling.
-
-Er is geen spreadsheetexpertise nodig voor dagelijks gebruik.
-
-Open de browserversie of Excel-werkmap, importeer geëxporteerde rapporten, vernieuw de gegevens en bekijk onmiddellijk gestandaardiseerde bedrijfsinzichten.
+👉 [**Download de herbruikbare Amazon Business Review Excel-sjabloon (.xlsx) — 30-daagse geld-terug-garantie**](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
 
 ---
 
-## Over
+## De bedrijfslogica & methodologie
 
-Ik bouw lichtgewicht beslissingsondersteunende tools voor situaties waar er simpelweg te veel bewegende delen zijn om in je hoofd te houden.
+De meeste Amazon-rapportagespreadsheets mislukken omdat ze symptomen behandelen (oppervlakkige metriekschommelingen) in plaats van de onderliggende commerciële oorzaak te isoleren. **Amazon Business Review Engine** productiseert institutionele eCommerce FP&A- en marketplace-managementmethodologie in vier kernanalytische lagen:
 
-De meeste bedrijfsproblemen vereisen geen nog een enterpriseplatform — ze vereisen een betere manier om informatie te organiseren zodat de volgende beslissing vanzelfsprekend wordt.
+### 1. Multi-bron ETL & relationele feitentabelnormalisatie
+Amazon-operationele gegevens zijn van nature gefragmenteerd: **Seller Central Business Reports** volgen sessies en Ordered Product Sales per Child ASIN/SKU; **Sellerboard** volgt COGS, FBA-kosten, PPC-uitgaven en nettowinst; **Search Query Performance (SQP)** volgt het zoekgedrag van klanten op query-niveau.
+* **De methode**: De werkmap past gestructureerde **Extract-Transform-Load (ETL)-schematoewijzing** toe om uiteenlopende datumnotaties, SKU-identificatoren en ouder-kindhiërarchieën te harmoniseren tot één verenigd datamodel.
+* **Het opgeloste bedrijfsprobleem**: Elimineert gegevenssilos en handmatige reconcitatiefouten, zodat verkeers-, advertentie- en nettowinstmetrieken op een identieke dimensionale korrel worden beoordeeld.
 
-Elk project begint met dezelfde vraag:
+### 2. Pareto-variantiedecompositie & bijdragebruganalyse
+Wanneer de totale omzet van de winkel week-op-week met 8% daalt, verbergen winkelbrede gemiddelden de boosdoener. In 80% van de Amazon-catalogi wordt omzetvolatiliteit aangedreven door minder dan 20% van de SKU's.
+* **De methode**: De engine voert **gewogen variantiebijdrageanalyse** uit ($\Delta \text{Metric}_i / \sum |\Delta \text{Metric}|$), waarbij elke Parent ASIN en elk Child SKU wordt gerangschikt op de exacte dollar- en percentage-impact op de totale periode-over-periodeverandering.
+* **Het opgeloste bedrijfsprobleem**: Vervangt uren handmatig doorgraven door een directe **Top Gainers / Top Decliners-toewijzingsbrug**, zodat operators zich onmiddellijk kunnen richten op de 3–5 SKU's die er werkelijk toe doen.
 
-> **Welke informatie moet op één plek aanwezig zijn zodat de volgende bedrijfsbeslissing met vertrouwen kan worden genomen?**
+### 3. Decompositie van de eCommerce-omzettrechter (vraag- vs. conversiediagnostiek)
+In Amazon-marketplace-management leidt een verkeerde diagnose van een omzetdaling tot kostbare fouten — zoals het verhogen van PPC-biedingen terwijl het werkelijke knelpunt een kapotte hoofdafbeelding of een verloren Buy Box is.
+* **De methode**: Het model ontleedt Ordered Product Sales langs de fundamentele eCommerce-identiteit:
+  $$\text{Revenue} = \text{Market Impressions} \times \text{CTR (Traffic Capture)} \times \text{Unit Session Percentage (CVR)} \times \text{Average Selling Price (ASP)}$$
+* **Het opgeloste bedrijfsprobleem**: Scheidt **macro-verschuivingen in zoekvraag** (dalende categorievertoningen) van **micro-uitvoeringsfouten op listingniveau** (dalende CTR door prijs/hoofdafbeelding of dalende CVR door reviews/voorraadtekorten) en stuurt zo naar precieze operationele fixes.
 
-**Amazon Business Review Data Engine** is een voorbeeld van die filosofie. Het transformeert repetitief rapportagewerk in een herbruikbaar analytisch kader, waardoor analisten minder tijd besteden aan het voorbereiden van spreadsheets en meer tijd aan het begrijpen van wat er werkelijk in het bedrijf gebeurt.
+### 4. Search Query Share-of-Voice (SoV)- & trechter-erosiemodellering
+Op het moment dat een hero-ASIN zijn organische positie op pagina één verliest, is de omzetschade al aangericht. Traditionele ranktrackers tonen alleen waar u vandaag rankt, niet *waarom* het algoritme van Amazon u afwaardeert.
+* **De methode**: Met behulp van **Amazon Search Query Performance (SQP)**-gegevens berekent de engine periode-over-periodeverschuivingen over de zoekwoordconversietrechter: **Impression Share $\rightarrow$ Click Share $\rightarrow$ Cart Add Share $\rightarrow$ Purchase Share**.
+* **Het opgeloste bedrijfsprobleem**: Dient als vroegwaarschuwende diagnostische radar. Als een kernzoekwoord een stabiele Impression Share behoudt maar een scherpe daling in **aankoopshare** lijdt, signaleert het model een onmiddellijke concurrentiële conversiedreiging op die exacte zoekterm voordat de organische ranking erodeert.
+
+---
+
+## Waarom ik dit heb gebouwd: Amazon FBA-besluitvorming standaardiseren
+
+Elke Amazon-verkoper exporteert Seller Central-rapporten. Zeer weinigen hebben een herhaalbaar **proces voor Amazon wekelijkse bedrijfsreviews**.
+
+In de meeste eCommerce-organisaties begint de maandagochtendreview met het downloaden van een half dozijn CSV-bestanden, het repareren van kapotte datumkolommen, het verwijderen van valutasymbolen, het naar beneden kopiëren van `XLOOKUP`-formules, het herbouwen van draaitabellen en het plakken van screenshots in dia's. Tegen de tijd dat de spreadsheet eindelijk gereconcilieerd is, besteedt het team de hele vergadering aan het verifiëren van de cijfers in plaats van te beslissen hoe het bedrijf moet groeien.
+
+De echte flessenhals is niet de beschikbaarheid van gegevens — het is het ontbreken van een **herbruikbaar analytisch datamodel**.
+
+Ik heb **Amazon Business Review Engine** gebouwd nadat ik merkeigenaren en eCommerce-analisten elke week opnieuw deze exacte handmatige cyclus zag herhalen. Het probleem was niet Microsoft Excel. Het probleem was dat Excel als statisch kladblok werd gebruikt in plaats van als gestructureerde **beslissingsondersteuningsengine**.
+
+### Voor: handmatige spreadsheetchaos
+
+De omzet daalde met 8% WoW. Het operationele team besteedde vier uur aan het kruislings vergelijken van Seller Central-verkeersrapporten, Sellerboard P&L-exports en PPC-campagnemanagergegevens om te achterhalen of de daling kwam door lagere advertentie-uitgaven, seizoensgebonden zoekvolumedalingen, niet-leverbare varianten of dalende conversiepercentages.
+
+### Na: directe diagnose van de oorzaak
+
+Na het vernieuwen van de werkmap brengt het directiedashboard onmiddellijk naar voren:
+
+* **SKU-toewijzing**: Drie Child SKU's onder één Parent ASIN zijn verantwoordelijk voor **72% van de totale omzetdaling**.
+* **Zoekwoordtrechteralarm**: Twee kernzoekwoorden met hoog volume leden aanzienlijke **SQP-verliezen in aankoopshare** ondanks stabiel vertoningsvolume.
+* **Advertentiegezondheid**: Winkelbrede **TACoS en ACoS** bleven stabiel, waardoor PPC-biedinginefficiëntie werd uitgesloten.
+* **Uitvoerbaar oordeel**: Een prijsdaling van een concurrent op een kernzoekwoord comprimeerde de CVR van de listing — en verschoof de discussie van *"Wat is er met de verkopen gebeurd?"* naar *"Hoe verdedigen we vandaag de conversie op deze twee zoektermen?"*
+
+---
+
+## Veelvoorkomende Amazon FBA-rapportageproblemen die deze engine oplost (handmatige spreadsheets vs. geautomatiseerd WBR-model)
+
+| Amazon-rapportageflessenhals & operationeel risico | Traditionele handmatige Excel-workflow (zonder deze tool) | Geautomatiseerde WBR-beslissingsondersteuningsengine (met deze tool) |
+| :--- | :--- | :--- |
+| **Uren verloren aan wekelijkse CSV-gegevensopschoning** | Analisten formatteren Seller Central CSV's handmatig opnieuw, herschrijven `XLOOKUP`/`SUMIFS`-formules, herbouwen draaitabellen en passen elke maandag de grafiekbereiken aan. | **Exporteren, plakken en vernieuwen.** Ruwe CSV-schema's worden in minder dan 3 minuten automatisch genormaliseerd naar bestuursdashboards. |
+| **Geviseleerde (gescheiden) Seller Central-, SQP- en Sellerboard-gegevens** | Verkeersrapporten (`Business Reports`), zoekwoordtrechters (`SQP`) en nettomarges (`Sellerboard`) staan in aparte werkbladen zonder verenigde relationele sleutel. | **Verenigde feitentabelarchitectuur** voegt omzet, sessies, CVR, PPC TACoS/ACoS, nettowinst en zoekwoordshare samen in één samenhangend model. |
+| **Trage oorzaaktoewijzing bij omzetdalingen** | Winkelbrede omzetvariantie is zichtbaar, maar het isoleren van de exacte Child SKU, Parent ASIN of zoekterm vereist vervelend handmatig filteren. | **Geautomatiseerde variantiebijdragebruggen** rangschikken direct de grootste positieve en negatieve aanjagers over SKU's, Parent ASIN's en zoekwoorden. |
+| **Kapotte WoW-, MoM- en YoY-historische benchmarks** | Ad-hoc wekelijkse spreadsheets ontwikkelen zich in de loop van de tijd onafhankelijk, wat inconsistente datumuitlijning en onbetrouwbare jaar-op-jaarvergelijkingen veroorzaakt. | **Gestandaardiseerde periodedimensietoewijzing** dwingt strikte temporele consistentie af over wekelijkse, maandelijkse en YoY-rapportagehorizonnen. |
+| **Directievergaderingen verspild aan het auditen van formules** | Bestuursvergaderingen stagneren wanneer stakeholders de berekeningslogica betwisten of 40 minuten besteden aan het zoeken naar ruw bewijs over meerdere bestanden. | **Bestuursklare beslissingsweergaven** tonen geverifieerde KPI's, trendgrafieken en uitzonderingsalarmen *vóór* de reviewvergadering begint. |
+| **Broze sleutelpersoon-spreadsheetafhankelijkheid** | Complexe aangepaste werkmappen breken telkens wanneer een nieuwe SKU wordt gelanceerd, een kolom verschuift of de analist die het werkblad bouwde het bedrijf verlaat. | **Geproduceerde, onderhoudsvrije sjabloon** ontkoppelt configuratie en ruwe gegevensinvoer van de berekeningsengine voor naadloze teamoverdrachten. |
+
+---
+
+## Voor wie dit is: rollspecifieke Amazon-analytics & rapportagegebruiksscenario's
+
+Deze tool is gebouwd voor eCommerce-professionals die terugkerende **Amazon Business Reviews** uitvoeren en een industriële, herhaalbare **Amazon-rapportagesjabloon** nodig hebben in plaats van nog een kostbaar SaaS-abonnement of broze spreadsheet.
+
+* **Amazon FBA-merkeigenaren & private label-aggregators**
+  * *Gebruiksscenario*: Zoeken naar een **Amazon seller winstgevendheids- en WBR-dashboardsjabloon** om de gezondheid van het Parent ASIN-portfolio, TACoS en de netto kasstroombijdrage te monitoren zonder een dedicated BI-ontwikkelaar in te huren.
+* **Amazon Marketplace-managers & brandspecialisten**
+  * *Gebruiksscenario*: Een **geautomatiseerde Amazon Weekly Business Review (WBR)-Excel-sjabloon** nodig hebben om Child SKU-sessies, Unit Session Percentage (CVR), Buy Box-percentage en SQP-zoekwoordshare bij te houden vóór de maandagochtendafstemming met het bestuur.
+* **eCommerce-financiële analisten & FP&A-professionals**
+  * *Gebruiksscenario*: Zoeken naar een **gestandaardiseerde Amazon variantieanalyse- en P&L-reconciliatiewerkmap** die operationele Seller Central-metrieken verbindt met Sellerboard unit-economics over WoW-, MoM- en YoY-horizonnen.
+* **Amazon PPC-bureaus & full-service marketplace-consultants**
+  * *Gebruiksscenario*: Een **schaalbare klantrapportagesjabloon voor Amazon-bureaus** nodig hebben die ruwe klantexports in enkele minuten omzet in uniforme, bestuursklare prestatieaudits over tientallen merkaccounts.
+* **Excel-eerst operationele teams & BI-beoefenaars**
+  * *Gebruiksscenario*: **Lichtgewicht, lokaal-eerst eCommerce-beslissingsondersteunende systemen** bouwen zonder de engineeringoverhead van het onderhouden van Amazon SP-API-pijplijnen, SQL-datawarehouses of PowerBI/Tableau-licenties.
+
+### Voor wie dit NIET is ontworpen
+
+* Enterprise-organisaties die live realtime **Amazon SP-API-streamingintegraties** of cloud datawarehousing nodig hebben (Snowflake / BigQuery).
+* Verkopers die op zoek zijn naar een geautomatiseerde PPC-biedingsbeheerbot of voorraad-ERP-aanvullingssoftware.
+* Gebruikers die op maat gemaakte softwareontwikkeling zoeken in plaats van een gestandaardiseerd, best-practice analytisch kader.
+
+---
+
+## Gebouwd voor high-impact Amazon-verkoperscenario's & rapportageworkflows
+
+Of u nu een lean merk met 10 SKU's runt of een catalogus met 500 SKU's auditeert, de engine past zich aan aan commerciële workflows met hoge inzetten:
+
+1. **Maandagochtend Amazon WBR-voorbereiding voor de directie**: Consolideer de Seller Central-, Sellerboard- en SQP-exports van vorige week in een bestuursklare prestatie-review in minder dan 5 minuten.
+2. **Post-mortems van verkeer/winstgevendheid na Prime Day & Q4 BFCM**: Vergelijk promotionele evenementenperioden met basisperioden om de werkelijke nettomargestijging vs. PPC ACoS/TACoS-verdunning te evalueren.
+3. **Catalogus Pareto-audits & SKU-rationalisatie**: Identificeer zombie-Child SKU's die advertentiebudget en magazijnopslag opslokken versus hoogmargelijke helden die agressieve verkeersopschaling verdienen.
+4. **Search Query Performance (SQP)-zoekwoordverdedigingsaudits**: Diagnoseer of een plotselinge daling in hero-ASIN-verkopen werd veroorzaakt door categoriebrede zoekvolumekrimp of door een concurrent die aankoopshare steelt op uw top 10-omzetzoekwoorden.
+
+---
+
+## Over de maker & ontwerpfilosofie
+
+Ik bouw lichtgewicht **beslissingsondersteunende systemen en analysesjablonen** voor snel bewegende commerciële omgevingen waar er te veel bewegende variabelen zijn om in je hoofd bij te houden.
+
+De meeste operationele flessenhalzen in eCommerce vereisen geen nog een $500/maand SaaS-dashboard — ze vereisen een schonere informatiearchitectuur zodat de juiste commerciële beslissing vanzelfsprekend wordt. Elk ontwerp van mij begint met één fundamentele vraag:
+
+> **Welke exacte informatie moet op één plek aanwezig zijn — en in welke structuur — zodat de volgende bedrijfsbeslissing met 100% vertrouwen kan worden genomen?**
+
+**Amazon Business Review Engine** is de culminatie van die filosofie, toegepast op Amazon-marketplace-operaties.
+
+* 🌐 **Test het gratis in uw browser**: [**Open de interactieve Amazon Business Review-webapp**](https://hyvoid.github.io/Amazon-Business-Review-Engine/)
+* 📥 **Bezit de volledige herbruikbare Excel-engine**: [**Download het Amazon Business Review Excel-sjabloon (.xlsx) op Theseus Workshop**](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
+
 ## Technische details
 
 <details>
@@ -536,7 +532,7 @@ Zoekwoorddiagnostiek identificeert:
 
 Bedrijfsaanbeveling:
 
-In plaats van de advertentie-uitgaven over alle campagnes te verhogen, geef prioriteit aan optimalisatie van de productpagina's voor de twee dalende zoekwoorden terwijl u de bestaande PPC-efficiëntie behoudt.
+In plaats van de advertentie-uitgaven over alle campagnes te verhogen, geeft u prioriteit aan optimalisatie van de productpagina's voor de twee dalende zoekwoorden terwijl u de bestaande PPC-efficiëntie behoudt.
 
 Het rapportageproces duurt slechts enkele minuten en levert een herhaalbare bestuursklare bedrijfsreview op zonder formules of draaitabellen te herbouwen.
 
@@ -626,7 +622,7 @@ Het rapportageproces duurt slechts enkele minuten en levert een herhaalbare best
 - **Product Profitability Analyzer** — Vergelijk contributiemarge over producten en marktplaatsen.
 - **Executive KPI Tracker** — Lichtgewicht operationele scorecard voor terugkerende managementreviews.
 
-Meer beslissingsondersteunende tools worden gepubliceerd via de GitHub-repository en onze [website](https://www.theseusworkshop.com/).
+Meer beslissingsondersteunende tools worden gepubliceerd via de GitHub-repository en onze [Website](https://www.theseusworkshop.com/).
 
 ---
 
