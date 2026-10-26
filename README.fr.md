@@ -134,6 +134,9 @@ Il n'est pas nécessaire de reconstruire des formules, de recréer des tableaux 
 ---
 
 > **Définissez quelques paramètres clés. Ajoutez vos données existantes. Obtenez l'analyse. Actualisez dès que de nouveaux rapports sont disponibles.**
+
+*   👉 [*Téléchargez le modèle Excel pour un usage hors ligne*](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
+
 ## Pourquoi j'ai construit cet outil
 
 Chaque vendeur Amazon exporte des rapports.
