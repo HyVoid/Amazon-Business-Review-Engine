@@ -134,6 +134,9 @@ Es ist nicht nötig, Formeln neu aufzubauen, Pivot-Tabellen neu zu erstellen, Di
 ---
 
 > **Legen Sie einige Schlüsselparameter fest. Fügen Sie Ihre vorhandenen Daten ein. Erhalten Sie die Analyse. Aktualisieren Sie, sobald neue Berichte verfügbar sind.**
+
+*   👉 [*Laden Sie die Excel-Vorlage für die Offline-Nutzung herunter*](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
+
 ## Warum ich das gebaut habe
 
 Jeder Amazon-Verkäufer exportiert Berichte.
