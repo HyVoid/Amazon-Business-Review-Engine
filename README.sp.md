@@ -134,6 +134,9 @@ No es necesario reconstruir fórmulas, recrear tablas dinámicas, rediseñar gr�
 ---
 
 > **Establezca algunos parámetros clave. Agregue sus datos existentes. Obtenga el análisis. Actualice cada vez que haya nuevos informes disponibles.**
+
+*   👉 [*Descarga la plantilla de Excel para usarla sin conexión*](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
+
 ## Por qué construí esto
 
 Todo vendedor de Amazon exporta informes.
