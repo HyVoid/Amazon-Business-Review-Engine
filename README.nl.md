@@ -134,6 +134,9 @@ Er is geen noodzaak om formules te herbouwen, draaitabellen opnieuw te maken, gr
 ---
 
 > **Stel een paar belangrijkste parameters in. Voeg uw bestaande gegevens toe. Ontvang de analyse. Vernieuw wanneer er nieuwe rapporten beschikbaar zijn.**
+
+*   👉 [*Download de Excel-sjabloon voor offline gebruik*](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
+
 ## Waarom ik dit heb gebouwd
 
 Elke Amazon-verkoper exporteert rapporten.
