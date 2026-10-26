@@ -31,7 +31,7 @@ The objective is simple:
 
 Test the analytical engine immediately using the browser-based web tool. When you are ready to establish a permanent, offline reporting archive for your team, get the full **Microsoft Excel WBR & SQP Analytics Template**—backed by a **30-day, no-questions-asked money-back guarantee**.
 
-* 🌐 **Try the Free Web Tool** 👉 [**Launch the Interactive Amazon WBR & SQP Analytics Web App in Your Browser (No Signup Required)**](https://hyvoid.github.io/Amazon-Business-Review-Engine/)
+* 🌐 **Try the Free Web Tool** 👉 [**Launch the Interactive Amazon WBR & SQP Analytics Web App in Your Browser (No Signup Required)**](https://hyvoid.github.io/amazon-wbr-sqp-analytics-template/)
 * 📥 **Get the Offline Excel Workbook** 👉 [**Download the Automated Amazon Business Review Excel Template (.xlsx) for Recurring WBR & Profitability Tracking**](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
 
 Available in both **Browser** and **Excel** editions. Simply configure your reporting periods, drop in your exported Amazon CSV reports, refresh the model, and start analyzing.
