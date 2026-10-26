@@ -1,6 +1,8 @@
 [ 🌐 عربي ](README.ar.md) | [ 🇩🇪 Deutsch ](README.de.md) | [ 🇫🇷 Français ](README.fr.md) | [ 🇳🇱 Nederlands ](README.nl.md) | [ 🇪🇸 Español ](README.sp.md) | [ 🇬🇧 English ](README.md)
 
 # Amazon Business Review Engine: Automated Amazon WBR, SQP & Profitability Analytics Template (Excel & Browser)
+<img width="2357" height="1228" alt="image" src="https://github.com/user-attachments/assets/2ed924df-0f35-4981-bd63-adeaf6b87875" />
+
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
