@@ -134,6 +134,9 @@
 ---
 
 > **اضبط بعض المعاملات الأساسية. أضف بياناتك الحالية. احصل على التحليل. وحدِّث متى صارت تقارير جديدة متاحة.**
+
+*   👉 [*نزّل قالب Excel للاستخدام دون اتصال*](https://www.theseusworkshop.com/l/vfywnz?utm_source=github&utm_medium=GitHub%20README&utm_campaign=readme%20new%20launch&utm_content=amazon-business-review-analytics)
+
 ## لماذا بنيت هذا المشروع
 
 كل بائع على أمازون يُصدِّر تقارير.
