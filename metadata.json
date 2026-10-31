@@ -1,6 +1,6 @@
 {
-  "name": "Amazon Business Review Engine",
-  "description": "Amazon Business Review SaaS Web Application. Integrate Seller Central, Sellerboard, and Search Query Performance reports with dynamic multi-dimensional diagnostic dashboards.",
+  "name": "Theseus Workshop - amazon-wbr-sqp-analytics-template",
+  "description": "amazon-wbr-sqp-analytics-template by Theseus Workshop: Amazon Business Review (WBR) and Search Query Performance (SQP) analytics SaaS application.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

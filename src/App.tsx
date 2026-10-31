@@ -213,7 +213,7 @@ export default function App() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `AMZ_Business_Review_Backup_${config.currentPeriod}.json`;
+    a.download = `amazon-wbr-sqp-analytics-template-backup-${config.currentPeriod}.json`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -274,13 +274,14 @@ export default function App() {
       {/* ─── STICKY TOP NAVIGATION BAR (56px) ─── */}
       <nav className="sticky top-0 z-50 h-[56px] bg-white border-b border-[var(--nav-border)] shadow-nav flex items-center justify-between px-6 select-none">
         
-        {/* Left Side: Brand Logo */}
-        <div className="flex items-center gap-2">
+        {/* Left Side: Brand Logo & Product Note */}
+        <div className="flex items-center gap-3 shrink-0">
           <span className="font-serif-display text-xl font-bold tracking-tight text-[var(--color-primary)]">
-            Amazon Business Review Engine
+            Theseus Workshop
           </span>
-          <span className="text-[10px] bg-[var(--color-primary)] text-white px-1.5 py-0.5 rounded font-mono font-medium tracking-wide uppercase leading-none mt-1">
-            SaaS Pro
+          <span className="text-gray-300 select-none">|</span>
+          <span className="text-[12px] font-mono text-[var(--color-muted)] tracking-tight">
+            amazon-wbr-sqp-analytics-template
           </span>
         </div>
 
@@ -461,6 +462,13 @@ export default function App() {
           />
         )}
       </main>
+      
+      {/* ─── FOOTER ─── */}
+      <footer className="mt-auto py-5 border-t border-[var(--color-border)] text-center bg-white/50">
+        <p className="text-[12px] text-[var(--color-muted)]">
+          All data in this tool is stored in your browser's localStorage. The page itself does not retain any user data.
+        </p>
+      </footer>
     </div>
   );
 }
